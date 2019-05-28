@@ -5,10 +5,10 @@ body {
   line-height: 2;
 }
 
-hr{
-height: 3px;
-background-color: #b0f4e6;
-margin: 0;
+hr {
+  height: 3px;
+  background-color: #b0f4e6;
+  margin: 0;
 }
 
 h1 {
@@ -38,8 +38,9 @@ a {
 }
 
 p {
-  font-family: 'Alex Brush';
-  font-size: 26px;
+font-family: 'Italianno', cursive;
+font-weight: lighter;
+  font-size: 32px;
 }
 
 /***************************************Class Selectors************************************************/
@@ -57,15 +58,21 @@ p {
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+  position: relative;
+  left: 700px;
+  bottom: 400px;
 }
 
 .top-cloud {
-  position: absolute;
+  position: relative;
   right: 300px;
-  top: 50px;
+  top: 350px;
+}
+
+.Me {
+  position: relative;
+  bottom: 50px;
+  border-radius: 100%
 }
 
 .skills {
@@ -76,12 +83,35 @@ p {
   border-radius: 50%;
 }
 
-.btn{
+.btn {
   background-color: #11999E;
   border-radius: 20%;
   color: white;
-  padding:10px;
-  margin:50px;
+  padding: 10px;
+  margin: 50px;
   display: inline-block;
   text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: 'Parisienne';
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  background: url(http://gideonren.com/wp-content/uploads/free-watercolor-textures-teal-blue-watercolor-texture-free-photoshop-brushes-at-brusheezy.jpg);
+}
+
+.nav-link {
+  font-family: 'Tangerine', cursive;
+  font-size: 24px;
+}
+
+.nav-link:hover {
+  color: #004d61;
+}
+
+.mountain{
+  position: relative;
+  right: 62px;
 }
