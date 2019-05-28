@@ -116,3 +116,9 @@ font-weight: lighter;
   position: relative;
   right: 62px;
 }
+
+.navbar-expand-lg {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
