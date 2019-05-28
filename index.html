@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
   <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Shreyas Manu- A Student Programmer</title>
   <link rel="stylesheet" href="master.css">
   <link rel="icon" href="Steve.ico">
+<link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Parisienne' rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
@@ -14,6 +19,30 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+
+    <a class="navbar-brand" href="">Shreyas Plankiyil Manu</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:shreyasplankiyil@gmail.com">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/shreyasplankiyil/">Github</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
 
   <div class="top-container">
 
@@ -22,19 +51,19 @@
 
     <h2>A Student Programmer.</h2>
     <img class="bottom-cloud" src="cloud.png" alt="">
-    <img src="mountain.png" alt="">
+    <img class="mountain" src="mountain.png" alt="">
   </div>
   <div class="middle-container">
     <div class="profile">
-      <img src="My Photo.JPG" alt="My Photo" width="410px" height="270px">
+      <img src="My Photo.JPG" alt="My Photo" width="390px" height="270px" class="Me">
       <h2>Hello.</h2>
       <p>I'm Shreyas Plankiyil Manu, a student at DAV Public School, Safilguda. I am a freelance developer.</p>
     </div>
-    <hr>
+    <hr><br>
     <div class="skills">
-      <h2>My Skills.</h2>
+      <a name="Skills"> <h2>My Skills.</h2> </a>
       <div class="skill-row">
-        <img class="skills" src="Html.png" alt="No image here!">
+        <img class="skills" src="Html.png" alt="Computer picture">
         <h3>HTML</h3>
         <p>I am an intermediate developer in HTML with over 50 websites to credit. I personally feel that learning to code is a necesssity and that we all have to learn to write basic HTML at a minimum. </p>
       </div>
@@ -44,10 +73,10 @@
         <p>I am quite proficient in CSS and I like using CSS against inline HTML formatting tags. I am adept in CSS 3 and I am extremely good with image formatting with CSS.</p>
       </div>
     </div>
-    <hr>
+    <hr> <br>
     <div class="contact-me">
       <h2>Get In Touch</h2>
-      <h3>I am available for freelance work.</h3>
+      <h3>I am available for freelance work.</h3><br>
       <p>If you have any queries please reach out to me with the links given below. I'd truly appreciate it if you could send me feedback regarding my website.</p>
       <a class="btn" href="mailto:shreyasplankiyilmanu@gmail.com">CONTACT ME</a>
 
@@ -56,17 +85,18 @@
 
 
   <div class="bottom-container">
-    <p>Email:- shreyasplankiyilmanu@gmail.com </p>
+   <p>Email:- shreyasplankiyilmanu@gmail.com </p>
     <a class="footer-link" href="https://github.com/Shreyasplankiyil">Github</a>
     <a class="footer-link" href="https://shreyasplankiyil.github.io/SPM/">My Online Resume</a>
     <p>© 2019 Shreyas Plankiyil.</p>
     <script>
-    let element = document.getElementById("footer");
-    element.innerHTML = "<small>&copy; " + new Date().getFullYear() + " YOUR NAME</small>";
-</script>
+      let element = document.getElementById("footer");
+      element.innerHTML = "<small>&copy; " + new Date().getFullYear() + " YOUR NAME</small>";
+    </script>
   </div>
 </body>
 
 </head>
 
 </html>
+
