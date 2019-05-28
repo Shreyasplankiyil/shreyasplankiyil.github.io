@@ -1,0 +1,87 @@
+/*******************************************Tag Selectors******************************************/
+body {
+  margin: 0px;
+  text-align: center;
+  line-height: 2;
+}
+
+hr{
+height: 3px;
+background-color: #b0f4e6;
+margin: 0;
+}
+
+h1 {
+  margin-top: 0px;
+  font-family: 'Parisienne';
+  font-size: 90px;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 45px;
+  color: #66BFBF;
+  font-weight: normal;
+  ;
+}
+
+h3 {
+  font-family: 'Tangerine', cursive;
+  font-size: 37px;
+  color: #11999E
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  font-family: 'Alex Brush';
+  font-size: 26px;
+}
+
+/***************************************Class Selectors************************************************/
+.top-container {
+  background-color: #b0f4e6;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 100px;
+}
+
+.bottom-container {
+  background-color: #b0f4e6;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skills {
+  border-radius: 50%;
+}
+
+.imageofcss {
+  border-radius: 50%;
+}
+
+.btn{
+  background-color: #11999E;
+  border-radius: 20%;
+  color: white;
+  padding:10px;
+  margin:50px;
+  display: inline-block;
+  text-decoration: none;
+}
